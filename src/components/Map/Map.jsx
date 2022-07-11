@@ -5,7 +5,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import { Icon } from "leaflet";
-import backup from "../../data/data.json";
+import data from "../../data/data.json";
 import DD from "../../assets/DD.svg";
 import LC from "../../assets/LC.svg";
 import NT from "../../assets/NT.svg";
@@ -18,27 +18,27 @@ import { v4 as uuidv4 } from "uuid";
 
 const Map = () => {
   const position = [20.3229714, -103.8999308];
-  const datos = [
-    {
-      id: 21,
-      gps: {
-        lat: 18.858763775063853,
-        lng: -93.5944770496974,
-      },
-    },
-  ];
-  const [data, setData] = useState(datos);
-  useEffect(() => {
-    obtenerDatos();
-  }, []);
+  // const datos = [
+  //   {
+  //     id: 21,
+  //     gps: {
+  //       lat: 18.858763775063853,
+  //       lng: -93.5944770496974,
+  //     },
+  //   },
+  // ];
+  // const [data, setData] = useState(datos);
+  // useEffect(() => {
+  //   obtenerDatos();
+  // }, []);
 
-  const obtenerDatos = async () => {
-    const apiAnimals = await fetch(
-      "https://savetheoceanbe.herokuapp.com/api/extinction"
-    );
-    const animals = await apiAnimals.json();
-    setData(animals.result);
-  };
+  // const obtenerDatos = async () => {
+  //   const apiAnimals = await fetch(
+  //     "https://savetheoceanbe.herokuapp.com/api/extinction"
+  //   );
+  //   const animals = await apiAnimals.json();
+  //   setData(animals.result);
+  // };
 
   const LocationFinder = () => {
     const map = useMapEvents({

@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="divisor">
           <img
-            src="https://www.sanbi.org/wp-content/uploads/2018/07/iucn-red-list-logo-red.jpg"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/IUCN_Red_List.svg/1200px-IUCN_Red_List.svg.png"
             className="pics"
             alt="Red_List"
           />
