@@ -14,6 +14,7 @@ const Main = () => {
       <div>
         <BrowserRouter>
           <Routes>
+            <Route path="/InteractiveMap" element={<Intro />} />
             <Route path="/" element={<Intro />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
