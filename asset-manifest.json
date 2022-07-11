@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/InteractiveMap/static/css/main.1f4b8d4e.css",
+    "main.js": "/InteractiveMap/static/js/main.ef61675d.js",
+    "static/media/FishBg.mp4": "/InteractiveMap/static/media/FishBg.d9909b8757d0cc76e4aa.mp4",
+    "static/media/CR.svg": "/InteractiveMap/static/media/CR.6fe1495825e4380e4d9eb41a679e5b21.svg",
+    "static/media/LC.svg": "/InteractiveMap/static/media/LC.a9acdb92875a795c31e82aab5c5d0b97.svg",
+    "static/media/NT.svg": "/InteractiveMap/static/media/NT.6068a9111ea03f199f3c535566dab32b.svg",
+    "static/media/EN.svg": "/InteractiveMap/static/media/EN.366b605214ec63dabbeff883869079d1.svg",
+    "static/media/EW.svg": "/InteractiveMap/static/media/EW.1ae9646225848993433fd94ce2c9fa10.svg",
+    "static/media/VU.svg": "/InteractiveMap/static/media/VU.ebf5af34e3bc97bc57f92b4f599499bf.svg",
+    "static/media/DD.svg": "/InteractiveMap/static/media/DD.aa15cceb45d2aae3775f3796a17f0d89.svg",
+    "static/media/EX.svg": "/InteractiveMap/static/media/EX.d5b9318e363c0a2b4fd626bfdd79b552.svg",
+    "index.html": "/InteractiveMap/index.html",
+    "main.1f4b8d4e.css.map": "/InteractiveMap/static/css/main.1f4b8d4e.css.map",
+    "main.ef61675d.js.map": "/InteractiveMap/static/js/main.ef61675d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f4b8d4e.css",
+    "static/js/main.ef61675d.js"
+  ]
+}
